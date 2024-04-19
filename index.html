@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templates</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="main flex justify-center flex-col items-center">
+      <nav
+        class=" navbar bg-white rounded-full flex justify-between items-center w-1/4 m-5 "
+      >
+        <div class=" navListContainer flex items-center gap-8 mx-5">
+          <div class=" navContainer flex items-center p-0 m-0 bg w-12 h-12 rounded-full ">
+            <img class="navLogo w-24" src="./assests/logo-icon.png" alt="logo-icon" />
+          </div>
+          <a href="">About</a>
+          <a href="">Works</a>
+          <span href="">|</span>
+          <a href="">Twitter</a>
+          <a href="">Dribble</a>
+          <a href="">Linkedln</a>
+        </div>
+        <div class="price flex items-center rounded-full h-8 w-28 m-5 p-4 bg">
+          <a href="">Price ~ it's free</a>
+        </div>
+      </nav>
+
+      <div
+        class="lastSection flex items-center justify-between w-3/4 mt-20"
+      >
+        <div class="sectionLogoContainer bg-white w-16 h-16 rounded-xl flex items-center">
+          <img class="sectionLogo w-16" src="./assests/black-chatgpt-logo.png" alt="" />
+        </div>
+        <div class=" title flex flex-col items-center">
+          <h2 class="titleText text-4xl font-bold bg p-4 rounded-xl mb-5">Hey I'm Kwaw</h2>
+          <h2 class="webDev text-4xl font-bold">A web developer with</h2>
+        </div>
+        <div class="sectionLogoContainer bg-white w-16 h-16 rounded-xl flex items-center">
+          <img class= "sectionLogo w-16" src="./assests/black-chatgpt-logo.png" alt="" />
+        </div>
+      </div>
+      <div class="flex items-center mt-10 justify-center">
+        <p class="lorem text-2xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor
+          dui et <br> est ultrices sodales.Nam facilisis suscipit mauris a pulvinar.
+        </p>
+      </div>
+
+      <section class="footerSection w-3/4 grid grid-cols-3 gap-8 mt-12 mb-12 justify-between ">
+        <div class="jobs flex bg-white w-3/4 rounded-xl justify-between px-10 h-32 mt-12 items-center">
+            <div class="flex flex-col items-center">
+                <span class="money font-bold text-2xl">%70</span>
+                <span class=" jobAchie tracking-wider">Job achievements</span>
+            </div>
+    
+            <div class="jobStatics flex flex-col items-center">
+                <span class=" money font-bold text-2xl">$8.4</span>
+                <span class="jobAchie tracking-wider">Job achievements</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="money font-bold text-2xl">1.6k</span>
+                <span class="jobAchie tracking-wider">Job achievements</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="money font-bold text-2xl">+24</span>
+                <span class="jobAchie tracking-wider">Job achievements</span>
+            </div>
+          </div>
+        <div style="display: flex; flex-direction: columns; justify-content: space-between; width: 80%;">
+        <div class="bg-whites rounded-md h-24 col-span-2 flex items-center justify-center">
+            <h3 class="tracking-wider">I've been helping in <br>designing User Interfaces</h3>
+        </div>
+        <div class="bg-blacks text-white col-span-1 h-24 flex flex-col rounded-md justify-center items-center stroke-2 stroke-white">
+            <h3 class="tracking-wider">Interface Designer</h3>
+            <h3 class="tracking-wider">UI kit of a template <br>from flowbase</h3>
+        </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
