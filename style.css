@@ -162,7 +162,7 @@ body {
 }
 .bg-whites {
     background-color: white;
-    width: 66%;
+    width: 70%;
     height: 110px;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@ body {
 .bg-blacks {
     color: white;
     background-color: black;
-    width: 33%;
+    width: 30%;
     height: 110px;
     display: flex;
     flex-direction: column;
